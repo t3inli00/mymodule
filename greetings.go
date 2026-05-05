@@ -9,3 +9,8 @@ func SayHello() {
 func SayBye() {
 	fmt.Println("Bye my Module")
 }
+
+func main() {
+	SayHello()
+	SayBye()
+}
